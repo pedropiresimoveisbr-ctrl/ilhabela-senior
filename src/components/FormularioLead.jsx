@@ -65,7 +65,7 @@ export default function FormularioLead({ funil = 'parque-ilhabela-v1' }) {
 
     // Monta mensagem WhatsApp com todos os dados
     const msg = encodeURIComponent(
-      `🏠 *Novo lead – Parque Ilha Bela* (${funil})\n\n` +
+      `🏠 * Parque Ilha Bela*` +
       `👤 Nome: ${form.nome}\n` +
       `📱 WhatsApp: ${form.tel}\n` +
       (form.email   ? `📧 E-mail: ${form.email}\n` : '') +
